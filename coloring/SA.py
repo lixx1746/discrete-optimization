@@ -37,7 +37,6 @@ def SA(nodes, itmax, timelimit, kmax):
 		it = it + 1
 	return bestdict, best
 
-
 if __name__ == '__main__':
 	#print neighbours
 	d, c = SA(range(11), 10, 5, 5)
